@@ -11,6 +11,9 @@
     opacity: 0.5;
     left: 48%;
     transform: translateX(-50%);
+    @media (max-width: 767px) {
+      width: 300px;
+    }
   }
 
   div.col-12 {

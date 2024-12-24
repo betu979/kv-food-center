@@ -7,6 +7,9 @@
     margin-bottom: 8rem;
     height: auto !important;
   }
+  @media (max-width: 819px) {
+    margin-bottom: 3rem;
+  }
   .container {
     .content {
       @media (max-width: 1279px) {
@@ -46,6 +49,15 @@
       @media (min-width: 1024px) and (max-width: 1279px) {
         transform: translate(425px, 98px);
       }
+      @media (max-width: 819px) {
+        top: 20% !important;
+        right: 0;
+        transform: none;
+      }
+      @media (max-width: 767px) {
+        width: 225px;
+        top: 15% !important;
+      }
     }
     .image-container img {
       @media (max-width: 1279px) {
@@ -64,6 +76,9 @@
         @media (max-width: 1279px) {
           width: 150px;
           bottom: 0;
+        }
+        @media (max-width: 819px) {
+          display: none;
         }
         &:first-child {
           left: 550px;

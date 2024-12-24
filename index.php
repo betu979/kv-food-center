@@ -1,7 +1,8 @@
 <html>
 <head>
     <title>Food Web</title>
-    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -45,7 +46,7 @@
       <h2 class="fs-32">italian</h2>
       <h1>Cuisine</h1>
       <p>Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out print, graphic or web designs. The passage is attributed to an unknown typesetter Finibus Bonorum et type specimen book.</p>
-      <div class="mt-5">
+      <div class="mt-5 text-center text-md-start">
         <button class="btn-orange">OUR MENU</button>
         <button class="ms-3 btn-black">OUR DRINKS</button>
       </div>
@@ -66,9 +67,9 @@
   <!-- Popular Dishes -->
   <section id="popular-dishes">
   <div class="container">
-    <h3 class="mb-5">Popular Dishes</h3>
+    <h3 class="mb-3 mb-md-5">Popular Dishes</h3>
     <div class="row">
-      <div class="col-6 col-lg-3">
+      <div class="col-12 col-md-6 col-lg-3">
         <div class="card border-0">
           <img src="images/popular-dish1.png" class="card-img-top" alt="...">
           <div class="card-body p-0 text-center">
@@ -83,7 +84,7 @@
           </div>
         </div>
       </div>
-      <div class="col-6 col-lg-3">
+      <div class="col-12 col-md-6 col-lg-3">
         <div class="card border-0">
           <img src="images/popular-dish2.jpg" class="card-img-top" alt="...">
           <div class="card-body p-0 text-center">
@@ -98,7 +99,7 @@
           </div>
         </div>
       </div>
-      <div class="col-6 col-lg-3">
+      <div class="col-12 col-md-6 col-lg-3">
         <div class="card border-0">
           <img src="images/popular-dish3.jpg" class="card-img-top" alt="...">
           <div class="card-body p-0 text-center">
@@ -113,7 +114,7 @@
           </div>
         </div>
       </div>
-      <div class="col-6 col-lg-3">
+      <div class="col-12 col-md-6 col-lg-3">
         <div class="card border-0">
           <img src="images/popular-dish4.jpg" class="card-img-top" alt="...">
           <div class="card-body p-0 text-center">
@@ -136,14 +137,14 @@
    <section id="about-us">
     <div class="container section-top-padding">
       <div class="row">
-        <div class="col-12 col-md-6 text-center">
+        <div class="col-12 col-lg-6 text-center">
           <div class="circle-container">
             <img src="images/about-us.jpg" alt="" class="img-fluid p-4">
           </div>
           
         </div>
-        <div class="col-12 col-md-6">
-          <h3>About Us</h3>
+        <div class="col-12 col-lg-6 mt-5 mt-lg-0">
+          <h3 class="mb-4">About Us</h3>
           <p>Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out print, graphic or web designs. The passage is attributed to an unknown typesetter Finibus Bonorum et type specimen book.Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out print, graphic or web designs. The passage is attributed to an unknown typesetter Finibus Bonorum et type specimen book. </p>
           <p>Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out print, graphic or web designs. The passage is attributed to an unknown typesetter Finibus Bonorum et type specimen book.</p>
           <button class="btn-black mt-3">OUR MENU</button>
@@ -175,7 +176,7 @@
         <div class="tab-content" id="pills-tabContent">
           <div class="tab-pane fade show active" id="pills-menu" role="tabpanel" aria-labelledby="pills-menu-tab">
             <div class="row">
-              <div class="col-6 col-lg-3">
+              <div class="col-12 col-md-6 col-lg-3">
                 <div class="card border-0">
                   <img src="images/menu1.jpeg" class="card-img-top mb-3" alt="...">
                   <div class="card-body p-0 text-center">
@@ -193,7 +194,7 @@
                   </div>
                 </div>
               </div>
-              <div class="col-6 col-lg-3">
+              <div class="col-12 col-md-6 col-lg-3">
                 <div class="card border-0">
                   <img src="images/menu2.jpeg" class="card-img-top mb-3" alt="...">
                   <div class="card-body p-0 text-center">
@@ -211,7 +212,7 @@
                   </div>
                 </div>
               </div>
-              <div class="col-6 col-lg-3">
+              <div class="col-12 col-md-6 col-lg-3">
                 <div class="card border-0">
                   <img src="images/menu3.jpeg" class="card-img-top mb-3" alt="...">
                   <div class="card-body p-0 text-center">
@@ -229,7 +230,7 @@
                   </div>
                 </div>
               </div>
-              <div class="col-6 col-lg-3">
+              <div class="col-12 col-md-6 col-lg-3">
                 <div class="card border-0">
                   <img src="images/menu4.jpeg" class="card-img-top mb-3" alt="...">
                   <div class="card-body p-0 text-center">
@@ -247,7 +248,7 @@
                   </div>
                 </div>
               </div>
-              <div class="col-6 col-lg-3">
+              <div class="col-12 col-md-6 col-lg-3">
                 <div class="card border-0">
                   <img src="images/menu5.jpeg" class="card-img-top mb-3" alt="...">
                   <div class="card-body p-0 text-center">
@@ -265,7 +266,7 @@
                   </div>
                 </div>
               </div>
-              <div class="col-6 col-lg-3">
+              <div class="col-12 col-md-6 col-lg-3">
                 <div class="card border-0">
                   <img src="images/menu6.jpeg" class="card-img-top mb-3" alt="...">
                   <div class="card-body p-0 text-center">
@@ -283,7 +284,7 @@
                   </div>
                 </div>
               </div>
-              <div class="col-6 col-lg-3">
+              <div class="col-12 col-md-6 col-lg-3">
                 <div class="card border-0">
                   <img src="images/menu7.jpeg" class="card-img-top mb-3" alt="...">
                   <div class="card-body p-0 text-center">
@@ -301,7 +302,7 @@
                   </div>
                 </div>
               </div>
-              <div class="col-6 col-lg-3">
+              <div class="col-12 col-md-6 col-lg-3">
                 <div class="card border-0">
                   <img src="images/menu5.jpeg" class="card-img-top mb-3" alt="...">
                   <div class="card-body p-0 text-center">
@@ -323,7 +324,7 @@
           </div>
           <div class="tab-pane fade" id="pills-dishes" role="tabpanel" aria-labelledby="pills-dishes-tab">
             <div class="row">
-              <div class="col-6 col-lg-3">
+              <div class="col-12 col-md-6 col-lg-3">
                 <div class="card border-0">
                   <img src="images/menu1.jpeg" class="card-img-top mb-3" alt="...">
                   <div class="card-body p-0 text-center">
@@ -341,7 +342,7 @@
                   </div>
                 </div>
               </div>
-              <div class="col-6 col-lg-3">
+              <div class="col-12 col-md-6 col-lg-3">
                 <div class="card border-0">
                   <img src="images/menu2.jpeg" class="card-img-top mb-3" alt="...">
                   <div class="card-body p-0 text-center">
@@ -359,7 +360,7 @@
                   </div>
                 </div>
               </div>
-              <div class="col-6 col-lg-3">
+              <div class="col-12 col-md-6 col-lg-3">
                 <div class="card border-0">
                   <img src="images/menu3.jpeg" class="card-img-top mb-3" alt="...">
                   <div class="card-body p-0 text-center">
@@ -377,7 +378,7 @@
                   </div>
                 </div>
               </div>
-              <div class="col-6 col-lg-3">
+              <div class="col-12 col-md-6 col-lg-3">
                 <div class="card border-0">
                   <img src="images/menu4.jpeg" class="card-img-top mb-3" alt="...">
                   <div class="card-body p-0 text-center">
@@ -395,7 +396,7 @@
                   </div>
                 </div>
               </div>
-              <div class="col-6 col-lg-3">
+              <div class="col-12 col-md-6 col-lg-3">
                 <div class="card border-0">
                   <img src="images/menu5.jpeg" class="card-img-top mb-3" alt="...">
                   <div class="card-body p-0 text-center">
@@ -413,7 +414,7 @@
                   </div>
                 </div>
               </div>
-              <div class="col-6 col-lg-3">
+              <div class="col-12 col-md-6 col-lg-3">
                 <div class="card border-0">
                   <img src="images/menu6.jpeg" class="card-img-top mb-3" alt="...">
                   <div class="card-body p-0 text-center">
@@ -431,7 +432,7 @@
                   </div>
                 </div>
               </div>
-              <div class="col-6 col-lg-3">
+              <div class="col-12 col-md-6 col-lg-3">
                 <div class="card border-0">
                   <img src="images/menu7.jpeg" class="card-img-top mb-3" alt="...">
                   <div class="card-body p-0 text-center">
@@ -449,7 +450,7 @@
                   </div>
                 </div>
               </div>
-              <div class="col-6 col-lg-3">
+              <div class="col-12 col-md-6 col-lg-3">
                 <div class="card border-0">
                   <img src="images/menu5.jpeg" class="card-img-top mb-3" alt="...">
                   <div class="card-body p-0 text-center">
@@ -471,7 +472,7 @@
           </div>
           <div class="tab-pane fade" id="pills-salad" role="tabpanel" aria-labelledby="pills-salad-tab">
             <div class="row">
-              <div class="col-6 col-lg-3">
+              <div class="col-12 col-md-6 col-lg-3">
                 <div class="card border-0">
                   <img src="images/menu1.jpeg" class="card-img-top mb-3" alt="...">
                   <div class="card-body p-0 text-center">
@@ -489,7 +490,7 @@
                   </div>
                 </div>
               </div>
-              <div class="col-6 col-lg-3">
+              <div class="col-12 col-md-6 col-lg-3">
                 <div class="card border-0">
                   <img src="images/menu2.jpeg" class="card-img-top mb-3" alt="...">
                   <div class="card-body p-0 text-center">
@@ -507,7 +508,7 @@
                   </div>
                 </div>
               </div>
-              <div class="col-6 col-lg-3">
+              <div class="col-12 col-md-6 col-lg-3">
                 <div class="card border-0">
                   <img src="images/menu3.jpeg" class="card-img-top mb-3" alt="...">
                   <div class="card-body p-0 text-center">
@@ -525,7 +526,7 @@
                   </div>
                 </div>
               </div>
-              <div class="col-6 col-lg-3">
+              <div class="col-12 col-md-6 col-lg-3">
                 <div class="card border-0">
                   <img src="images/menu4.jpeg" class="card-img-top mb-3" alt="...">
                   <div class="card-body p-0 text-center">
@@ -543,7 +544,7 @@
                   </div>
                 </div>
               </div>
-              <div class="col-6 col-lg-3">
+              <div class="col-12 col-md-6 col-lg-3">
                 <div class="card border-0">
                   <img src="images/menu5.jpeg" class="card-img-top mb-3" alt="...">
                   <div class="card-body p-0 text-center">
@@ -561,7 +562,7 @@
                   </div>
                 </div>
               </div>
-              <div class="col-6 col-lg-3">
+              <div class="col-12 col-md-6 col-lg-3">
                 <div class="card border-0">
                   <img src="images/menu6.jpeg" class="card-img-top mb-3" alt="...">
                   <div class="card-body p-0 text-center">
@@ -579,7 +580,7 @@
                   </div>
                 </div>
               </div>
-              <div class="col-6 col-lg-3">
+              <div class="col-12 col-md-6 col-lg-3">
                 <div class="card border-0">
                   <img src="images/menu7.jpeg" class="card-img-top mb-3" alt="...">
                   <div class="card-body p-0 text-center">
@@ -597,7 +598,7 @@
                   </div>
                 </div>
               </div>
-              <div class="col-6 col-lg-3">
+              <div class="col-12 col-md-6 col-lg-3">
                 <div class="card border-0">
                   <img src="images/menu5.jpeg" class="card-img-top mb-3" alt="...">
                   <div class="card-body p-0 text-center">
@@ -618,7 +619,7 @@
             </div>
           </div><div class="tab-pane fade" id="pills-pasta" role="tabpanel" aria-labelledby="pills-pasta-tab">
             <div class="row">
-              <div class="col-6 col-lg-3">
+              <div class="col-12 col-md-6 col-lg-3">
                 <div class="card border-0">
                   <img src="images/menu1.jpeg" class="card-img-top mb-3" alt="...">
                   <div class="card-body p-0 text-center">
@@ -636,7 +637,7 @@
                   </div>
                 </div>
               </div>
-              <div class="col-6 col-lg-3">
+              <div class="col-12 col-md-6 col-lg-3">
                 <div class="card border-0">
                   <img src="images/menu2.jpeg" class="card-img-top mb-3" alt="...">
                   <div class="card-body p-0 text-center">
@@ -654,7 +655,7 @@
                   </div>
                 </div>
               </div>
-              <div class="col-6 col-lg-3">
+              <div class="col-12 col-md-6 col-lg-3">
                 <div class="card border-0">
                   <img src="images/menu3.jpeg" class="card-img-top mb-3" alt="...">
                   <div class="card-body p-0 text-center">
@@ -672,7 +673,7 @@
                   </div>
                 </div>
               </div>
-              <div class="col-6 col-lg-3">
+              <div class="col-12 col-md-6 col-lg-3">
                 <div class="card border-0">
                   <img src="images/menu4.jpeg" class="card-img-top mb-3" alt="...">
                   <div class="card-body p-0 text-center">
@@ -690,7 +691,7 @@
                   </div>
                 </div>
               </div>
-              <div class="col-6 col-lg-3">
+              <div class="col-12 col-md-6 col-lg-3">
                 <div class="card border-0">
                   <img src="images/menu5.jpeg" class="card-img-top mb-3" alt="...">
                   <div class="card-body p-0 text-center">
@@ -708,7 +709,7 @@
                   </div>
                 </div>
               </div>
-              <div class="col-6 col-lg-3">
+              <div class="col-12 col-md-6 col-lg-3">
                 <div class="card border-0">
                   <img src="images/menu6.jpeg" class="card-img-top mb-3" alt="...">
                   <div class="card-body p-0 text-center">
@@ -726,7 +727,7 @@
                   </div>
                 </div>
               </div>
-              <div class="col-6 col-lg-3">
+              <div class="col-12 col-md-6 col-lg-3">
                 <div class="card border-0">
                   <img src="images/menu7.jpeg" class="card-img-top mb-3" alt="...">
                   <div class="card-body p-0 text-center">
@@ -744,7 +745,7 @@
                   </div>
                 </div>
               </div>
-              <div class="col-6 col-lg-3">
+              <div class="col-12 col-md-6 col-lg-3">
                 <div class="card border-0">
                   <img src="images/menu5.jpeg" class="card-img-top mb-3" alt="...">
                   <div class="card-body p-0 text-center">
@@ -766,7 +767,7 @@
           </div>
           <div class="tab-pane fade" id="pills-drinks" role="tabpanel" aria-labelledby="pills-drinks-tab">
             <div class="row">
-              <div class="col-6 col-lg-3">
+              <div class="col-12 col-md-6 col-lg-3">
                 <div class="card border-0">
                   <img src="images/menu1.jpeg" class="card-img-top mb-3" alt="...">
                   <div class="card-body p-0 text-center">
@@ -784,7 +785,7 @@
                   </div>
                 </div>
               </div>
-              <div class="col-6 col-lg-3">
+              <div class="col-12 col-md-6 col-lg-3">
                 <div class="card border-0">
                   <img src="images/menu2.jpeg" class="card-img-top mb-3" alt="...">
                   <div class="card-body p-0 text-center">
@@ -802,7 +803,7 @@
                   </div>
                 </div>
               </div>
-              <div class="col-6 col-lg-3">
+              <div class="col-12 col-md-6 col-lg-3">
                 <div class="card border-0">
                   <img src="images/menu3.jpeg" class="card-img-top mb-3" alt="...">
                   <div class="card-body p-0 text-center">
@@ -820,7 +821,7 @@
                   </div>
                 </div>
               </div>
-              <div class="col-6 col-lg-3">
+              <div class="col-12 col-md-6 col-lg-3">
                 <div class="card border-0">
                   <img src="images/menu4.jpeg" class="card-img-top mb-3" alt="...">
                   <div class="card-body p-0 text-center">
@@ -838,7 +839,7 @@
                   </div>
                 </div>
               </div>
-              <div class="col-6 col-lg-3">
+              <div class="col-12 col-md-6 col-lg-3">
                 <div class="card border-0">
                   <img src="images/menu5.jpeg" class="card-img-top mb-3" alt="...">
                   <div class="card-body p-0 text-center">
@@ -856,7 +857,7 @@
                   </div>
                 </div>
               </div>
-              <div class="col-6 col-lg-3">
+              <div class="col-12 col-md-6 col-lg-3">
                 <div class="card border-0">
                   <img src="images/menu6.jpeg" class="card-img-top mb-3" alt="...">
                   <div class="card-body p-0 text-center">
@@ -874,7 +875,7 @@
                   </div>
                 </div>
               </div>
-              <div class="col-6 col-lg-3">
+              <div class="col-12 col-md-6 col-lg-3">
                 <div class="card border-0">
                   <img src="images/menu7.jpeg" class="card-img-top mb-3" alt="...">
                   <div class="card-body p-0 text-center">
@@ -892,7 +893,7 @@
                   </div>
                 </div>
               </div>
-              <div class="col-6 col-lg-3">
+              <div class="col-12 col-md-6 col-lg-3">
                 <div class="card border-0">
                   <img src="images/menu5.jpeg" class="card-img-top mb-3" alt="...">
                   <div class="card-body p-0 text-center">
@@ -925,7 +926,7 @@
           <p>Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out print, graphic or web designs. The passage is attributed to an unknown typesetter Finibus Bonorum et type specimen book.  </p>
           <button class="btn-black mt-3">BOOK A TABLE</button>
         </div>
-        <div class="col-12 col-md-6 text-end">
+        <div class="col-12 col-md-6 mt-3 mt-md-0 text-center text-md-end">
           <div class="image-container">
             <img src="images/discover.jpeg" alt="" class="img-fluid">
           </div>
@@ -940,7 +941,7 @@
     <div class="container section-top-padding section-bottom-padding">
       <h3 class="mb-5">How To Order</h3>
       <div class="row">
-        <div class="col-12 col-lg-4 mb-5 mb-lg-0">
+        <div class="col-12 col-md-11 col-lg-4 mb-5 mb-lg-0">
           <div class="px-3 py-4 d-flex flex-column">
             <div>
               <img src="images/game-icons-meal.png" alt="">
@@ -949,7 +950,7 @@
             <p>Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out print, graphic or web designs. The passage is attributed to an unknown typesetter Finibus Bonorum et type specimen book. Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out print, graphic or web designs.</p>
           </div>
         </div>
-        <div class="col-12 col-lg-4 mb-5 mb-lg-0">
+        <div class="col-12 col-md-11 col-lg-4 mb-5 mb-lg-0">
           <div class="px-3 py-4 d-flex flex-column">
             <div>
               <img src="images/mingcute-paper-line.png" alt="">
@@ -958,7 +959,7 @@
             <p>Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out print, graphic or web designs. The passage is attributed to an unknown typesetter Finibus Bonorum et type specimen book. Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out print, graphic or web designs.</p>
           </div>
         </div>
-        <div class="col-12 col-lg-4 mb-5 mb-lg-0">
+        <div class="col-12 col-md-11 col-lg-4 mb-5 mb-lg-0">
           <div class="px-3 py-4 d-flex flex-column">
             <div>
               <img src="images/solar-dollar-bold.png" alt="">
@@ -1040,7 +1041,7 @@
 <footer class="background-black mt-5 text-white">
     <div class="container py-5">
         <div class="row">
-            <div class="mb-5 mb-lg-0 order-lg-1 col-6 col-lg-4">
+            <div class="mb-5 mb-lg-0 order-lg-1 col-l2 col-md-6 col-lg-4">
                 <h3 class="fs-32 mb-3">LOGO</h3>
                 <p>Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out print, graphic or web designs. The passage is attributed to an unknown.</p>
                 <div class="d-flex">
@@ -1078,7 +1079,7 @@
                     <li><a href="#">Support</a></li>
                 </ul>
             </div>
-            <div class="mb-5 mb-lg-0 order-lg-1 col-6 col-lg-4">
+            <div class="mb-5 mb-lg-0 order-lg-1 col-12 col-md-6 col-lg-4">
                 <h4>Contact Us</h4>
                 <ul>
                     <li>Bologram Ustad Marge Indore, 452001</li>
@@ -1098,7 +1099,7 @@
   loop: true,
   spaceBetween: 40,
   freeMode: true,
-  slidesPerView: 2,
+  slidesPerView: 1,
   autoHeight: true,
   autoplay: {
     delay: 2500,
@@ -1109,22 +1110,14 @@
     clickable: true
   },
   breakpoints: {    
-    "@0.00": {
-        slidesPerView: 2,
+    576: {
+        slidesPerView: 1,
         spaceBetween: 10,
     },
-    "@0.75": {
+    820: {
         slidesPerView: 2,
         spaceBetween: 20,
-    },
-    "@1.00": {
-        slidesPerView: 2,
-        spaceBetween: 40,
-    },
-    "@1.50": {
-        slidesPerView: 2,
-        spaceBetween: 50,
-    },
+    }
   },
 });
 </script>
