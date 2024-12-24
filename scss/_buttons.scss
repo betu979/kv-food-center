@@ -1,0 +1,19 @@
+@use "var" as vars;
+@use "color" as colors;
+
+button {
+  border-radius: 10px;
+  width: 150px;
+  height: 45px;
+  border: none;
+  font-family: vars.$poppins;
+}
+
+.btn-orange {
+  background: colors.$color-orange;
+  color: colors.$color-white;
+}
+.btn-black {
+  color: colors.$color-white;
+  background-color: colors.$color-black;
+}

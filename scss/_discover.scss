@@ -1,0 +1,68 @@
+@use "var" as vars;
+@use "color" as colors;
+@use "mixins";
+
+#discover {
+  @include mixins.bgImage("../images/discover-bg.png");
+  background-position-x: 10%;
+  .row .col-12 {
+    &:first-child {
+      padding-top: 115px;
+      padding-bottom: 115px;
+      @media (max-width: 1439px) {
+        padding-top: 85px;
+        padding-bottom: 85px;
+        @media (max-width: 1279px) {
+          padding-top: 40px;
+          padding-bottom: 40px;
+        }
+        @media (max-width: 1023px) {
+          padding-top: 1rem;
+          padding-bottom: 1rem;
+        }
+      }
+    }
+    .image-container {
+      position: relative;
+      height: 100%;
+      @media (max-width: 1023px) {
+        align-content: center;
+      }
+      img {
+        height: 400px;
+        @media (max-width: 1439px) {
+          height: 350px;
+        }
+        @media (max-width: 1279px) {
+          height: 300px;
+        }
+        @media (max-width: 1023px) {
+          height: 215px;
+        }
+      }
+      &::before {
+        content: " ";
+        position: absolute;
+        width: 400px;
+        height: 400px;
+        background-color: colors.$color-black;
+        border-radius: 50%;
+        left: 0;
+        bottom: 0;
+        z-index: -1;
+        @media (max-width: 1439px) {
+          width: 350px;
+          height: 350px;
+        }
+        @media (max-width: 1279px) {
+          height: 300px;
+          width: 300px;
+        }
+        @media (max-width: 1023px) {
+          height: 215px;
+          width: 215px;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,15 @@
+@use "var" as vars;
+@use "color" as colors;
+@use "mixins";
+
+#about-us {
+  @include mixins.bgImage("../images/about-us-bg.png");
+  .circle-container {
+    border-radius: 50%;
+    img {
+      border-radius: 50%;
+      box-shadow: 0px 4px 4px 0px #00000040;
+      background-color: colors.$color-gray;
+    }
+  }
+}

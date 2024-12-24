@@ -1,0 +1,50 @@
+$color-body-bg: #f7f7f7;
+$color-black: #000;
+$color-orange: #f09319;
+$color_white: #fff;
+$color-gray: #d9d9d9;
+$color-dark-gray: #706767;
+
+.color-black {
+  color: $color-black !important;
+}
+.color-orange {
+  color: $color-orange;
+}
+
+.background-black {
+  background-color: $color-black;
+}
+
+// $color_black:rgba(0, 0, 0, 1);
+// $color_white: #fff;
+// $color-green: #21AD01;
+// $background-color_white: #fff;
+// $color_white_opecity: #ffffff85;
+// $color_gray: #6B6B6A;
+// $color_light_black: #003C2F;
+// $background-color-gray:rgba(244, 242, 240, 1);
+// $background-color-darkgreen:rgba(44, 72, 38, 1);
+// $color-light-paragraph:#666666;
+
+// .btn-bg {
+//   background-color: $background-color-green;
+//   border-radius: 8px;
+//   padding: 10px 24px;
+// }
+// .btn-text {
+//   color: $background-color-green;
+// }
+// .btn-border {
+//   border: 2px solid $background-color-green;
+//   color: $color-green;
+//   background-color: $background-color-gray;
+//   border-radius: 8px;
+//   padding: 12px 25px;
+// }
+// .gray-bg {
+//   background-color: $background-color-gray;
+// }
+// .swiper-pagination-bullet-active {
+//   background: $color-green;
+// }

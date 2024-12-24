@@ -1,0 +1,5 @@
+@mixin bgImage($imagePath, $bg-size: auto, $bg-repeat: no-repeat) {
+  background: url($imagePath);
+  background-repeat: $bg-repeat;
+  background-size: $bg-size;
+}

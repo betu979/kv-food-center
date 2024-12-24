@@ -1,0 +1,28 @@
+@use "var" as vars;
+@use "color" as colors;
+@use "mixins";
+
+#testimonial {
+  @include mixins.bgImage("../images/testimonial-bg.png", cover);
+  .testimonial-swiper {
+    padding-bottom: 10rem;
+  }
+  .bg-white {
+    bottom: -100px;
+  }
+  .image-container {
+    position: absolute;
+    border-radius: 50%;
+    width: 135px;
+    height: 135px;
+    background-color: colors.$color_white;
+    left: 50%;
+    transform: translate(-50%, -75%);
+    img {
+      object-fit: cover;
+      width: 100%;
+      border-radius: 50%;
+      height: 100%;
+    }
+  }
+}

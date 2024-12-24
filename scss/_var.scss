@@ -1,0 +1,79 @@
+//FONTS SIZE
+$font-size-x-small: 0.563rem; // 9px
+$font-size-small: 0.75rem; // 12px
+$font-size-small-x: 0.813rem; // 13px
+$font-size-x-regular: 0.875rem; // 14px
+$font-size-regular: 1rem; // 16px
+$font-size-regular-x: 1.125rem; // 18px
+$font-size-x-medium: 1.25rem; // 20px
+$font-size-large: 1.5rem; // 24px
+$font-size-large-x1: 1.75rem; // 28px
+$font-size-large-x: 2rem; // 32px
+$font-size-x-large: 2.5rem; // 40px
+$font-size-large-xx: 2.75rem; // 44px
+$font-size-large-xxx: 3.5rem; // 56px
+
+// font size class
+.fs-9 {
+  font-size: $font-size-x-small;
+}
+.fs-10 {
+  font-size: $font-size-x-small;
+}
+.fs-11 {
+  font-size: $font-size-x-small;
+}
+.fs-12 {
+  font-size: $font-size-small;
+}
+.fs-13 {
+  font-size: $font-size-small-x;
+}
+.fs-14 {
+  font-size: $font-size-x-regular;
+}
+.fs-16 {
+  font-size: $font-size-regular !important;
+}
+.fs-18 {
+  font-size: $font-size-regular-x;
+}
+.fs-20 {
+  font-size: $font-size-x-medium;
+}
+.fs-24 {
+  font-size: $font-size-large;
+}
+.fs-28 {
+  font-size: $font-size-large-x1;
+}
+.fs-32 {
+  font-size: $font-size-large-x;
+}
+
+.fs-40 {
+  font-size: $font-size-x-large !important;
+}
+
+.fs-44 {
+  font-size: $font-size-large-xx;
+}
+.fs-56 {
+  font-size: $font-size-large-xxx;
+}
+
+//FONTS WEIGHT/
+$font-weight-light: 300;
+$font-weight-regular: 400;
+$font-weight-medium: 500;
+$font-weight-medium-x: 600;
+$font-weight-bold: 700;
+
+//FONTS FAMILY/
+$poppins: "Poppins", serif;
+$righteous: "Righteous", serif;
+
+//DIVICES WIDTH/
+$tablet: 768px;
+$dektop: 1024px;
+$max_desktop: 1440px;

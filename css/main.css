@@ -1,0 +1,547 @@
+.fs-9 {
+  font-size: 0.563rem;
+}
+
+.fs-10 {
+  font-size: 0.563rem;
+}
+
+.fs-11 {
+  font-size: 0.563rem;
+}
+
+.fs-12 {
+  font-size: 0.75rem;
+}
+
+.fs-13 {
+  font-size: 0.813rem;
+}
+
+.fs-14 {
+  font-size: 0.875rem;
+}
+
+.fs-16 {
+  font-size: 1rem !important;
+}
+
+.fs-18 {
+  font-size: 1.125rem;
+}
+
+.fs-20 {
+  font-size: 1.25rem;
+}
+
+.fs-24 {
+  font-size: 1.5rem;
+}
+
+.fs-28 {
+  font-size: 1.75rem;
+}
+
+.fs-32 {
+  font-size: 2rem;
+}
+
+.fs-40 {
+  font-size: 2.5rem !important;
+}
+
+.fs-44 {
+  font-size: 2.75rem;
+}
+
+.fs-56 {
+  font-size: 3.5rem;
+}
+
+.color-black {
+  color: #000 !important;
+}
+
+.color-orange {
+  color: #f09319;
+}
+
+.background-black {
+  background-color: #000;
+}
+
+#hero {
+  margin-bottom: 250px;
+}
+@media (max-width: 1279px) {
+  #hero {
+    margin-bottom: 8rem;
+    height: auto !important;
+  }
+}
+@media (max-width: 1279px) {
+  #hero .container .content {
+    margin-top: 8rem;
+  }
+}
+#hero .container h2 {
+  font-weight: 400;
+  letter-spacing: 6px;
+}
+@media (max-width: 1279px) {
+  #hero .container h2 {
+    font-size: 24px !important;
+  }
+}
+#hero .container h1 {
+  font-size: 128px;
+}
+@media (max-width: 1279px) {
+  #hero .container h1 {
+    font-size: 80px;
+  }
+}
+#hero .container p {
+  width: 45%;
+  line-height: 24px;
+}
+@media (max-width: 1279px) {
+  #hero .container p {
+    width: 60%;
+  }
+}
+@media (max-width: 1023px) {
+  #hero .container p {
+    width: 100%;
+  }
+}
+#hero .container > img {
+  transform: translate(250px, 98px);
+  width: 450px;
+  opacity: 0.2;
+}
+@media (max-width: 1439px) {
+  #hero .container > img {
+    width: 400px;
+  }
+}
+@media (min-width: 1024px) and (max-width: 1279px) {
+  #hero .container > img {
+    transform: translate(425px, 98px);
+  }
+}
+@media (max-width: 1279px) {
+  #hero .container .image-container img {
+    display: none;
+  }
+}
+#hero .container .image-container img:first-child {
+  transform: translate(-70px, 100px);
+  width: 460px;
+}
+#hero .container > div.image-container-2 img {
+  position: absolute;
+  width: 200px;
+  bottom: -200px;
+}
+@media (max-width: 1279px) {
+  #hero .container > div.image-container-2 img {
+    width: 150px;
+    bottom: 0;
+  }
+}
+#hero .container > div.image-container-2 img:first-child {
+  left: 550px;
+  width: 350px;
+  opacity: 0.5;
+}
+@media (max-width: 1599px) {
+  #hero .container > div.image-container-2 img:first-child {
+    left: 342px;
+  }
+}
+@media (max-width: 1279px) {
+  #hero .container > div.image-container-2 img:first-child {
+    width: 250px;
+    bottom: -150px;
+    left: 375px;
+  }
+}
+
+button {
+  border-radius: 10px;
+  width: 150px;
+  height: 45px;
+  border: none;
+  font-family: "Poppins", serif;
+}
+
+.btn-orange {
+  background: #f09319;
+  color: #fff;
+}
+
+.btn-black {
+  color: #fff;
+  background-color: #000;
+}
+
+header {
+  z-index: 1;
+}
+header .navbar .navbar-brand {
+  font-weight: 700;
+}
+header .navbar .navbar-nav {
+  gap: 30px;
+  width: 75%;
+  flex-direction: row;
+}
+@media (max-width: 1279px) {
+  header .navbar .navbar-nav {
+    width: auto;
+  }
+}
+
+#about-us {
+  background: url("../images/about-us-bg.png");
+  background-repeat: no-repeat;
+  background-size: auto;
+}
+#about-us .circle-container {
+  border-radius: 50%;
+}
+#about-us .circle-container img {
+  border-radius: 50%;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.2509803922);
+  background-color: #d9d9d9;
+}
+
+#menu-tabs #pills-tab {
+  align-items: baseline;
+  gap: 50px;
+}
+#menu-tabs #pills-tab li button {
+  font-family: "Righteous", serif;
+  font-weight: 400;
+  color: #706767;
+  width: auto;
+  height: auto;
+}
+@media (max-width: 1279px) {
+  #menu-tabs #pills-tab li button {
+    font-size: 1.125rem;
+  }
+}
+#menu-tabs #pills-tab li button.active {
+  font-size: 2.5rem;
+  color: #000;
+}
+@media (max-width: 1279px) {
+  #menu-tabs #pills-tab li button.active {
+    font-size: 2rem;
+  }
+}
+#menu-tabs #pills-tabContent img {
+  width: 100%;
+  height: 306px;
+}
+@media (max-width: 1279px) {
+  #menu-tabs #pills-tabContent img {
+    height: 225px;
+  }
+}
+#menu-tabs #pills-tabContent i.bi-star-fill, #menu-tabs #pills-tabContent i.bi-star {
+  font-size: 0.813rem;
+}
+#menu-tabs #pills-tabContent .d-flex h4.color-black {
+  font-family: "Righteous", serif;
+  text-transform: capitalize;
+}
+
+#discover {
+  background: url("../images/discover-bg.png");
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-position-x: 10%;
+}
+#discover .row .col-12:first-child {
+  padding-top: 115px;
+  padding-bottom: 115px;
+}
+@media (max-width: 1439px) {
+  #discover .row .col-12:first-child {
+    padding-top: 85px;
+    padding-bottom: 85px;
+  }
+}
+@media (max-width: 1439px) and (max-width: 1279px) {
+  #discover .row .col-12:first-child {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+}
+@media (max-width: 1439px) and (max-width: 1023px) {
+  #discover .row .col-12:first-child {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+}
+#discover .row .col-12 .image-container {
+  position: relative;
+  height: 100%;
+}
+@media (max-width: 1023px) {
+  #discover .row .col-12 .image-container {
+    align-content: center;
+  }
+}
+#discover .row .col-12 .image-container img {
+  height: 400px;
+}
+@media (max-width: 1439px) {
+  #discover .row .col-12 .image-container img {
+    height: 350px;
+  }
+}
+@media (max-width: 1279px) {
+  #discover .row .col-12 .image-container img {
+    height: 300px;
+  }
+}
+@media (max-width: 1023px) {
+  #discover .row .col-12 .image-container img {
+    height: 215px;
+  }
+}
+#discover .row .col-12 .image-container::before {
+  content: " ";
+  position: absolute;
+  width: 400px;
+  height: 400px;
+  background-color: #000;
+  border-radius: 50%;
+  left: 0;
+  bottom: 0;
+  z-index: -1;
+}
+@media (max-width: 1439px) {
+  #discover .row .col-12 .image-container::before {
+    width: 350px;
+    height: 350px;
+  }
+}
+@media (max-width: 1279px) {
+  #discover .row .col-12 .image-container::before {
+    height: 300px;
+    width: 300px;
+  }
+}
+@media (max-width: 1023px) {
+  #discover .row .col-12 .image-container::before {
+    height: 215px;
+    width: 215px;
+  }
+}
+
+#how-to-order {
+  background: url("../images/pizza-half.png");
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-position-x: right;
+}
+#how-to-order > img {
+  bottom: -77px;
+  z-index: -1;
+  opacity: 0.5;
+  left: 48%;
+  transform: translateX(-50%);
+}
+#how-to-order div.col-12 > div {
+  background-color: #fff;
+  gap: 20px;
+}
+
+#testimonial {
+  background: url("../images/testimonial-bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#testimonial .testimonial-swiper {
+  padding-bottom: 10rem;
+}
+#testimonial .bg-white {
+  bottom: -100px;
+}
+#testimonial .image-container {
+  position: absolute;
+  border-radius: 50%;
+  width: 135px;
+  height: 135px;
+  background-color: #fff;
+  left: 50%;
+  transform: translate(-50%, -75%);
+}
+#testimonial .image-container img {
+  object-fit: cover;
+  width: 100%;
+  border-radius: 50%;
+  height: 100%;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #f7f7f7;
+  font-family: "Righteous", serif;
+  color: #000;
+  margin: 0;
+  padding: 0;
+}
+
+h3 {
+  font-size: 2.5rem;
+  line-height: 49px;
+}
+@media (max-width: 1279px) {
+  h3 {
+    font-size: 2rem;
+  }
+}
+
+h4 {
+  font-size: 1.25rem;
+}
+@media (max-width: 1279px) {
+  h4 {
+    font-size: 1.125rem;
+  }
+}
+
+h5 {
+  font-size: 1.125rem;
+}
+@media (max-width: 1279px) {
+  h5 {
+    font-size: 1rem;
+  }
+}
+
+h6 {
+  font-size: 1rem;
+  font-family: "Poppins", serif;
+  text-transform: uppercase;
+  color: #f09319;
+  font-weight: 600;
+}
+@media (max-width: 1279px) {
+  h6 {
+    font-size: 0.875rem;
+  }
+}
+
+p {
+  font-family: "Poppins", serif;
+}
+@media (max-width: 1279px) {
+  p {
+    font-size: 0.875rem;
+  }
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  font-weight: 500;
+  font-family: "Poppins", serif;
+  list-style: none;
+}
+
+.section-top-padding {
+  padding-top: 150px;
+}
+@media (max-width: 1439px) {
+  .section-top-padding {
+    padding-top: 80px;
+  }
+}
+
+.section-bottom-padding {
+  padding-bottom: 150px;
+}
+@media (max-width: 1439px) {
+  .section-bottom-padding {
+    padding-bottom: 80px;
+  }
+}
+
+.row .col-6.col-lg-3 {
+  margin-bottom: 3rem;
+}
+.row .col-6.col-lg-3:nth-last-child(-n+4) {
+  margin-bottom: 1rem;
+}
+
+i.bi-star-fill, i.bi-star-half {
+  color: #f09319;
+}
+@media (max-width: 1279px) {
+  i.bi-star-fill, i.bi-star-half {
+    font-size: 0.875rem;
+  }
+}
+i.bi-star {
+  color: #d9d9d9;
+}
+i:not(:last-child) {
+  margin-right: 5px;
+}
+
+#join-us {
+  background: url("../images/joinus-bg.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+#join-us::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6196078431);
+  top: 0;
+}
+#join-us input {
+  font-family: "Poppins", serif;
+}
+#join-us button {
+  border-radius: 0px 5px 5px 0px;
+  font-family: "Righteous", serif;
+  letter-spacing: 5px;
+}
+
+footer h4 {
+  margin-bottom: 1rem;
+}
+footer .d-flex {
+  gap: 8px;
+}
+footer .d-flex div {
+  padding: 4px;
+}
+footer ul {
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+footer ul li a {
+  color: #fff;
+}
+
+/*# sourceMappingURL=main.css.map */

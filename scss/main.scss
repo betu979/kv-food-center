@@ -1,0 +1,154 @@
+@use "var" as vars;
+@use "color" as colors;
+@use "mixins";
+@use "banner";
+@use "buttons";
+@use "header";
+@use "aboutUs";
+@use "menuTabs";
+@use "discover";
+@use "howToOrder";
+@use "testimonial";
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: colors.$color-body-bg;
+  font-family: vars.$righteous;
+  color: colors.$color-black;
+  margin: 0;
+  padding: 0;
+}
+
+h3 {
+  font-size: vars.$font-size-x-large;
+  line-height: 49px;
+  @media (max-width: 1279px) {
+    font-size: vars.$font-size-large-x;
+  }
+}
+
+h4 {
+  font-size: vars.$font-size-x-medium;
+  @media (max-width: 1279px) {
+    font-size: vars.$font-size-regular-x;
+  }
+}
+
+h5 {
+  font-size: vars.$font-size-regular-x;
+  @media (max-width: 1279px) {
+    font-size: vars.$font-size-regular;
+  }
+}
+
+h6 {
+  font-size: vars.$font-size-regular;
+  font-family: vars.$poppins;
+  text-transform: uppercase;
+  color: colors.$color-orange;
+  font-weight: vars.$font-weight-medium-x;
+  @media (max-width: 1279px) {
+    font-size: vars.$font-size-x-regular;
+  }
+}
+
+p {
+  font-family: vars.$poppins;
+  @media (max-width: 1279px) {
+    font-size: vars.$font-size-x-regular;
+  }
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  font-weight: vars.$font-weight-medium;
+  font-family: vars.$poppins;
+  list-style: none;
+}
+.section-top-padding {
+  padding-top: 150px;
+  @media (max-width: 1439px) {
+    padding-top: 80px;
+  }
+}
+
+.section-bottom-padding {
+  padding-bottom: 150px;
+  @media (max-width: 1439px) {
+    padding-bottom: 80px;
+  }
+}
+
+.row .col-6.col-lg-3 {
+  margin-bottom: 3rem;
+  &:nth-last-child(-n + 4) {
+    margin-bottom: 1rem;
+  }
+}
+
+i {
+  &.bi-star-fill,
+  &.bi-star-half {
+    color: colors.$color-orange;
+    @media (max-width: 1279px) {
+      font-size: vars.$font-size-x-regular;
+    }
+  }
+  &.bi-star {
+    color: colors.$color-gray;
+  }
+  &:not(:last-child) {
+    margin-right: 5px;
+  }
+}
+
+#join-us {
+  @include mixins.bgImage("../images/joinus-bg.jpeg", cover);
+  background-position: center;
+  position: relative;
+  &::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #0000009e;
+    top: 0;
+  }
+  input {
+    font-family: vars.$poppins;
+  }
+  button {
+    border-radius: 0px 5px 5px 0px;
+    font-family: vars.$righteous;
+    letter-spacing: 5px;
+  }
+}
+
+footer {
+  h4 {
+    margin-bottom: 1rem;
+  }
+  .d-flex {
+    gap: 8px;
+    div {
+      padding: 4px;
+    }
+  }
+  ul {
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    li {
+      a {
+        color: colors.$color_white;
+      }
+    }
+  }
+}

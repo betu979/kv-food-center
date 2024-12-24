@@ -1,0 +1,305 @@
+#video-service-banner{
+  .lead-height{
+    @media (min-width:1441px){
+      padding-left: 18%;
+    }
+    @media (max-width:1440px){
+      padding-left: 8%;
+    }
+    @media (max-width:1366px){
+      padding-left: 10%;
+    }
+    @media (max-width:768px){
+      padding-top: 20%;
+      padding-left: 5%;
+    }
+  a{
+    color: $color-green;
+    text-decoration: none;
+  }
+  h2{
+    font-size: 36px;
+    line-height: 50.8px;
+    font-weight: 500;
+    @media (max-width:1366px){
+      font-size: 30px;
+    }
+    @media (max-width:1024px){
+      font-size: 22px;
+      line-height: 35px;
+    }
+    @media (max-width:768px){
+      font-size: 32px;
+      line-height: 37.6px;
+    }
+  }
+  p{
+    font-size: 18px;
+    font-weight: $font-weight-light;
+    line-height: 28.8px;
+    color: $color-light-paragraph;
+    @media (max-width:768px){
+      font-size: 16px;
+      line-height: 22.4px;
+    }
+  }
+  .position-relative{
+    .position-absolute{
+      top: 0;
+      right: 0;
+      width: 100%;
+      height: 580px;
+      z-index: -9;
+    }
+  }
+}
+  .wheat-icons {
+		position: absolute;
+		background-color: $background-color_white;
+		padding:20px;
+    box-shadow: 12.14px 24.29px 56.93px 0px #00000026;
+    border-radius: 50%;
+	}
+	.left-wheat-icons {
+    top: 45%;
+    left: 23%;
+	}
+	h6 {
+		&:first-child {
+			color: $color_gray;
+			font-weight: 500;
+			font-size: 15px;
+		}
+		&:last-child {
+			font-weight: 700;
+			font-size: 18px;
+			color: $color_light_black;
+		}
+	}
+}
+
+#lets-face{
+  h5{
+    font-size: 34px;
+    font-weight: $font-weight-medium;
+    @media (max-width: 600px){
+      font-size: 24px;
+      line-height: 36px;
+    }
+  }
+  p{
+    font-size: 20px;
+    line-height: 32px;
+    font-weight: $font-size-regular;
+    @media (max-width: 600px){
+      font-size: 16px;
+      line-height: 24px;
+    }
+  }
+}
+
+#why-video{
+  p{
+    font-size: 20px;
+    font-weight: $font-weight-regular;
+    line-height: 32px;
+    @media (max-width:1024px){
+      font-size: 16px;
+      line-height: 25.6px;
+    }
+    @media (max-width:768px){
+      font-size: 16px;
+      line-height: 25.6px;
+    }
+  }
+  .bg-img {
+    background:url('../images/authenticity.webp');
+    border-radius: 24px;
+    .bg-overlay{
+      background: rgba(11, 34, 12, 0.8);
+      height: 330px;
+      border-radius: inherit;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 30px;
+      @media (max-width:768px){
+        justify-content: space-between;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 60px;
+        padding: 25px;
+      }
+      @media (max-width:600px){
+        height: auto;
+      }
+      .d-flex{
+        flex-direction: column;
+        justify-content: center;
+        gap: 15px;
+        @media (max-width:768px){
+          flex-direction: row;
+        }
+        h6{
+           font-size: 30px;
+           font-weight: $font-weight-medium;
+           line-height: 33.3px;
+           @media (max-width:1024px){
+             font-size: 20px;
+             line-height: 30px;
+           }
+         }
+      }
+       p{
+         display: none;
+         font-size: 20px;
+         font-weight: $font-weight-regular;
+         line-height: 32px;
+         @media (max-width:1024px){
+           font-size: 16px;
+           line-height: 25.6px;
+         }
+         @media (max-width:768px){
+           display: block;
+           font-size: 16px;
+           line-height: 25.6px;
+         }
+       }
+    }
+    &:hover{
+      .bg-overlay{
+        justify-content: space-between;
+        flex-direction: column;
+        align-items: flex-start;
+        .d-flex{
+          flex-direction: row;
+        }
+        p{
+          display: block;
+        }
+      }
+    }
+  }
+}
+
+#our-services{
+  h5{
+    font-size: 40px;
+    font-weight: $font-weight-medium;
+    line-height: 47px;
+    @media (max-width: 600px){
+      font-size: 32px;
+      line-height: 38.4px;
+    }
+  }
+  p{
+    font-size: 20px;
+    font-weight: $font-weight-regular;
+    line-height: 32px;
+    @media (max-width: 600px){
+      font-size: 16px;
+      line-height: 25.6px;
+    }
+  }
+  .gray-bg{
+    border-radius: 24px;
+    height: auto;
+    min-height: 625px;
+    @media (max-width: 768px){
+      min-height: 651px;
+    }
+    @media (max-width: 600px){
+      min-height: auto;
+    }
+    video{
+      border-radius: 24px 24px 0 0;
+    }
+    h6{
+      font-weight: $font-weight-medium;
+      font-size: 24px;
+      line-height: 28.2px;
+      @media (max-width: 600px){
+        font-size: 20px;
+        line-height: 23.5px;
+      }
+    }
+     p{
+      font-size: 16px;
+      font-size: $font-weight-light;
+      color: $color-light-paragraph;
+      @media (max-width: 600px){
+        font-size: 14px;
+        line-height: 21px;
+      }
+    }
+  }
+}
+
+#subscription-lans{
+  h5{
+    font-size: 40px;
+    font-weight: $font-weight-medium;
+    line-height: 47px;
+    @media (max-width: 600px){
+      font-size: 32px;
+      line-height: 38.4px;
+    }
+  }
+  p{
+    font-size: 20px;
+    font-weight: $font-size-regular;
+    line-height: 32px;
+    @media (max-width: 600px){
+      font-size: 16px;
+      line-height: 25.6px;
+    }
+  }
+  .green-bg{
+    background-color: #EE8146;
+    border-radius: 24px 24px 0 0;
+    padding: 15px 0;
+    @media (max-width: 768px){
+      padding: 0;
+    }
+    @media (max-width: 768px){
+      padding: 15px 0;
+    }
+  }
+  .bg-white{
+    box-shadow: 0px 4px 12px 0px rgba(0, 0, 0, 0.1);
+    border-radius: 24px;
+    h6{
+      font-size: 28px;
+      font-weight: $font-weight-medium;
+      line-height:32.9px;
+    }
+    p{
+      font-size: 16px;
+      font-weight: $font-size-regular;
+      line-height: 18.8px;
+      color: #444444;
+      @media (max-width: 1024px){
+        font-size: 13px;
+      }
+      @media (max-width: 768px){
+        font-size: 12px;
+      }
+  }
+  .d-flex{
+    i{
+      font-size: 40px;
+      color: $color-green;
+    }
+    p{
+      font-size: 14px;
+      font-weight: $font-size-regular;
+      line-height: 16.45px;
+    }
+    h6{
+      font-size: 20px;
+      font-weight: $font-weight-medium;
+      line-height: 23.5px;
+    }
+  }
+}
+}

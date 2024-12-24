@@ -1,0 +1,22 @@
+@use "var" as vars;
+@use "color" as colors;
+@use "mixins";
+
+#how-to-order {
+  @include mixins.bgImage("../images/pizza-half.png");
+  background-position-x: right;
+  > img {
+    bottom: -77px;
+    z-index: -1;
+    opacity: 0.5;
+    left: 48%;
+    transform: translateX(-50%);
+  }
+
+  div.col-12 {
+    > div {
+      background-color: colors.$color_white;
+      gap: 20px;
+    }
+  }
+}

@@ -1,0 +1,49 @@
+@use "var" as vars;
+@use "color" as colors;
+
+#menu-tabs {
+  #pills-tab {
+    align-items: baseline;
+    gap: 50px;
+    li {
+      button {
+        font-family: vars.$righteous;
+        font-weight: vars.$font-weight-regular;
+        color: colors.$color-dark-gray;
+        width: auto;
+        height: auto;
+        @media (max-width: 1279px) {
+          font-size: vars.$font-size-regular-x;
+        }
+        &.active {
+          font-size: vars.$font-size-x-large;
+          color: colors.$color-black;
+          @media (max-width: 1279px) {
+            font-size: vars.$font-size-large-x;
+          }
+        }
+      }
+    }
+  }
+  #pills-tabContent {
+    img {
+      width: 100%;
+      height: 306px;
+      @media (max-width: 1279px) {
+        height: 225px;
+      }
+    }
+    i {
+      &.bi-star-fill,
+      &.bi-star {
+        font-size: vars.$font-size-small-x;
+      }
+    }
+    .d-flex {
+      h4.color-black {
+        font-family: vars.$righteous;
+        text-transform: capitalize;
+      }
+    }
+  }
+}
