@@ -5,6 +5,10 @@
   #pills-tab {
     align-items: baseline;
     gap: 50px;
+    @media (max-width: 767px) {
+      flex-wrap: nowrap;
+      overflow-x: auto;
+    }
     li {
       button {
         font-family: vars.$righteous;
@@ -31,6 +35,9 @@
       height: 306px;
       @media (max-width: 1279px) {
         height: 225px;
+      }
+      @media (max-width: 767px) {
+        height: auto;
       }
     }
     i {

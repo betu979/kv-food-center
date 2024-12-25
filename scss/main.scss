@@ -149,7 +149,7 @@ i {
     font-family: vars.$poppins;
     &::placeholder {
       @media (max-width: 767px) {
-        color: transparent;
+        //color: transparent;
       }
     }
   }

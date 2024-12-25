@@ -11,6 +11,9 @@
     margin-bottom: 3rem;
   }
   .container {
+    @media (min-width: 1441px) {
+      max-width: 92%;
+    }
     .content {
       @media (max-width: 1279px) {
         margin-top: 8rem;
